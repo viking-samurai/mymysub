@@ -176,23 +176,23 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 5rem;
+	  font-size: 8rem;
 	}
 
 	h2{
-	  font-size: 4rem;
+	  font-size: 6rem;
 	}
 
 	h3{
-	  font-size: 3rem;
+	  font-size: 5rem;
 	}
 
 	h4{
-	  font-size: 3em;
+	  font-size: 4em;
 	}
 	
 	.menuItem, .infoItem, .datesItem{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	
 	.gallery{
