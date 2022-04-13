@@ -19,7 +19,7 @@
 }
 
 .galleryPic{
-	width: 18em;
+	width: 300px;
 	margin: 1%;
 }
 
@@ -195,7 +195,7 @@ body{
 		font-size: 4rem;
 	}
 	
-	.gallery{
+	.pictureDiv{
 	  display: flex;
 	  flex-flow: column wrap;
 	  margin: auto;
@@ -219,6 +219,6 @@ body{
 	  justify-content: space-evenly;
 	  align-items: center;
 	  max-width: 100%;
-	  margin: 0% auto;
+	  margin: 0% 5% auto 5%;
 	}
 }
