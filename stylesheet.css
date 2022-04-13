@@ -176,11 +176,12 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 8rem;
+	  font-size: 6rem;
 	}
 
 	h2{
 	  font-size: 6rem;
+	  margin-top: 5%;
 	}
 
 	h3{
@@ -193,12 +194,6 @@ body{
 	
 	.menuItem, .infoItem, .datesItem{
 		font-size: 4rem;
-	}
-	
-	.pictureDiv{
-	  display: flex;
-	  flex-flow: column wrap;
-	  margin: auto;
 	}
 	
 	.menu{
