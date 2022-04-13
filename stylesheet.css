@@ -5,12 +5,14 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
 }
 
 .pictureDiv{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-content: center;
 	align-items: center;
 	max-width: 60em;
@@ -39,7 +41,7 @@
 	text-align: center;
 	font-size: 28px;
 	line-height: 1.5;
-	margin: 5%;
+	margin: 3%;
 }
 
 /*Store Info and Hours Area*/
@@ -48,7 +50,6 @@
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	align-items: top;
-	margin: 0 auto;
 }
 
 .infoItem{
@@ -60,6 +61,7 @@
 	text-align: center;
 	font-size: 28px;
 	line-height: 1.5;
+	margin: 2%;
 }
 
 .hours{
@@ -74,14 +76,15 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0;
 	font-size: 24px;
-	line-height: .33;
+	line-height: .15;
 	width: 400px;
 }
 
 #mapPic{
 	width: 30em;
-	margin-top: 0;
+	margin-top: 0%;
 }
 
 /*Main Website Areas*/
@@ -145,15 +148,14 @@ h3{
 
 h4{
 	font-size: 2em;
-	margin-top: 5%;
-	margin-bottom: 0%;
+	margin: 5% auto auto auto;
 	max-width: 10em;
 }
 
 .column{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	max-width: 500px;
 	margin: 0% auto;
@@ -189,8 +191,14 @@ body{
 	  font-size: 3em;
 	}
 	
-	.menuItem, .infoItem{
+	.menuItem, .infoItem, .datesItem{
 		font-size: 3rem;
+	}
+	
+	.gallery{
+	  display: flex;
+	  flex-flow: column wrap;
+	  margin: auto;
 	}
 	
 	.menu{
