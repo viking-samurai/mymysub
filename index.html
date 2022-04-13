@@ -3,9 +3,6 @@
   <head>
     <meta charset="utf-8">
 	<title>My My Sub</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   
@@ -15,23 +12,22 @@
 	  <h3>Authentic Vietnamese Street Cuisine</h3>
 	</header>
 	
-	<main>
-	  <section id="gallery">
-	    <div class="galleryRow">
-		  <img class="galleryPic" src="dishPicOne.jpg">
-		  <img class="galleryPic" src="dishPicTwo.jpg">
-		  <img class="galleryPic" src="dishPicThree.jpg">
-		  <img class="galleryPic" src="dishPicFour.jpg">
-		  <img class="galleryPic" src="dishPicFive.jpg">
-		  <img class="galleryPic" src="dishPicSix.jpg">
-		</div>
-	  </section>
-	  
-	  <div class="sectionHeading"><h2>Menu</h2></div>
-	  
-	  <section id="menu">
-	    <div class="menuColumn">
-		  <h4>Snacks</h4>
+	<main class="gallery">
+	  <div class="pictureDiv">
+	    <img class="galleryPic" src="dishPicOne.jpg">
+		<img class="galleryPic" src="dishPicTwo.jpg">
+		<img class="galleryPic" src="dishPicThree.jpg">
+		<img class="galleryPic" src="dishPicFour.jpg">
+		<img class="galleryPic" src="dishPicFive.jpg">
+		<img class="galleryPic" src="dishPicSix.jpg">
+	  </div>
+	</main>
+	
+	<h2>Menu</h2>
+	
+	<main class="menu">
+	  <div class="column">
+	    <h4>Snacks</h4>
 		  <p class="menuItem">1) Pork Spring Rolls<br />
 		    4 rolls - $7.95</p>
 		  <p class="menuItem">2) Vegetarian Spring Rolls<br />
@@ -59,7 +55,7 @@
 		  <p class="menuItem">12) Thoek Bokki (Spicy rice cake)<br />
 		    $8.00</p>
 
-		  <h4>Subs</h4>
+		<h4>Subs</h4>
 		  <p class="menuItem">(All subs: cilantro, jalepeno, cucumber, pickled carrots, onions)</p>
 		  <p class="menuItem">13) Cold Cut<br />
 		    $9.00</p>
@@ -77,9 +73,10 @@
 		    (Beef or chicken)<br />
 			$9.00</p>
 		  <p class="menuItem">Add Meat - $3.00 | Add Cheese - $1.50</p>
-		</div>
-		<div class="menuColumn">
-		  <h4>Vermicilli Noodles or Rice</h4>
+	  </div>
+	  
+	  <div class="column">
+	    <h4>Vermicilli Noodles or Rice</h4>
 		  <p class="menuItem">(All noodle and rice dishes come with a spring roll)</p>
 		  <p class="menuItem">20) Shrimp, Beef, or Chicken<br />
 		    $14.00</p>
@@ -98,7 +95,7 @@
 			$14.00</p>
 		  <p class="menuItem">Add Meat - $3.50</p>
 
-		  <h4>Soups</h4>
+		<h4>Soups</h4>
 		  <p class="menuItem">27) Sate Peanut Beef <br />
 		    or Chicken Noodle Soup<br />
 		    $13.00</p>
@@ -111,7 +108,7 @@
 		    (Served with broccoli & carrot)<br />
 			$12.00</p>
 
-		  <h4>Drinks</h4>
+		<h4>Drinks</h4>
 		  <p class="menuItem">B1) Vietnamese Coffee (Cold or hot)<br />
 		    $4.50</p>
 		  <p class="menuItem">B2) House Special Tea<br />
@@ -119,51 +116,15 @@
 			$4.95</p>
 		  <p class="menuItem">B3) Bubble Tea<br />
 		    (Pearls or lychee jelly)<br />
-			(Strawberry, mango, lychee, coconut, taro,<br />
+			(Strawberry, mango, lychee, coconut, taro,
 			cantaloupe, honeydew, watermelon, pineapple)<br />
 			$6.50</p>
 		  <p class="menuItem">B4) Mix w/powder - $0.75 |<br />Mix w/fruit - $1.00</p>
-		</div>
-	  </section>
-	  
-	  <div class="sectionHeading"><h2>Store Information</h2></div>
-	  
-	  <section id="storeInfo">
-	    <div class="infoColumn">
-		  <p class="menuItem">Phone: <br />
-		    (587) 839-6868</p>
-		  <p class="menuItem">Address: <br />
-		    1012 16th ave., NW</p>
-		  <p class="menuItem">Calgary, AB<br />
-		    T2M 0K5</p><br/>
-		  <p class="menuItem"><strong>Parking in the rear of building</strong></p>
-		  <p class="menuItem"><strong>Cash and debit only.  No credit cards.</strong></p>
-		</div>
-		<div class="infoColumn">
-		  <img id="mapPic" src="map.jpg">
-		</div>
-	  </section>
-	  
-	  <div class="sectionHeading"><h2>Store Hours</h2></div>
-	  
-	  <section id="storeHours">
-	    <div class="datesColumn">
-			<div class="datesRow"><p>Monday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Tuesday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Wednesday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Thursday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Friday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Saturday: </p><p>--</p></div>
-		    <div class="datesRow"><p>Sunday: </p><p>--</p></div>
-		</div>
-		<div class="hoursColumn">
-		  <h4 style="text-align: center;">Call ahead of your order to avoid wait times!</h4>
-		  <h4 style="text-align: center;">We can fill any sized order with sufficient time to prepare, so call ahead.</h4>
-		</div>
-	  </section>
+	  </div>
 	</main>
 	
-	<footer>Website designed by: ProjectMuse.ca</footer>
-  
+	<footer>
+	  <p style="color: white;">Website designed by: ProjectMuse.ca</p>
+	</footer>
   </body>
 </html>

@@ -1,15 +1,13 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-/*Specific Areas*/
-/*Menu Gallery*/
-#gallery{
+
+/*Website Sub-main Areas*/
+/*Gallery Area*/
+.gallery{
 	display: flex;
-	flex-flow: column wrap;
-	max-width: 1000px;
-	margin: auto;
 }
 
-.galleryRow{
+.pictureDiv{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
@@ -18,25 +16,17 @@
 }
 
 .galleryPic{
+	width: 18em;
 	margin: 1%;
-	width: 300px;
 }
 
 
 
-/*Main Menu*/
-#menu{
+/*Menu Area*/
+.menu{
 	display: flex;
 	flex-flow: row wrap;
 	margin: auto;
-}
-
-.menuColumn{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	max-width: 600px;
-	margin: 0 auto;
 }
 
 .menuItem{
@@ -48,194 +38,149 @@
 	text-align: center;
 	font-size: 28px;
 	line-height: 1.5;
+	margin: 5%;
 }
 
-
-/*Store Info*/
-#storeInfo{
+/*Store Info and Hours Area*/
+.info{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
 	margin: auto;
 }
 
-.infoColumn{
+.infoItem{
 	display: flex;
-	flex-direction: column;
-	width: 500px;
-}
-
-#mapPic{
-	max-width: 400px;
-	margin: 5% auto;
-}
-
-
-
-/*Store hours*/
-#storeHours{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	flex-direction: row wrap;
+	justify-content: space-around;
 	align-content: center;
 	align-items: center;
+	text-align: center;
+	font-size: 28px;
+	line-height: 1.5;
 }
 
-.datesColumn{
+.hours{
 	display: flex;
-	flex-direction: column;
-	width: 30em;
+	flex-flow: row wrap;
+	margin: auto;
 }
 
 .datesRow{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	font-size: 24px;
 	line-height: .33;
+	width: 400px;
 }
 
-.hoursColumn{
+#mapPic{
+	width: 30em;
+	margin: 5% auto;
+}
+
+/*Main Website Areas*/
+header{
 	display: flex;
 	flex-direction: column;
-	width: 600px;
+	justify-content: center;
+	align-items: center;
+	background-color: #a0138e;
+	padding: 2em;
+	height: 14em;
+	width: 100%;
 }
 
+main{
+	display: flex;
+	flex-flow: column wrap;
+	max-width: 1000px;
+}
 
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #a0138e;
+	width: 100%;
+	margin-top: 3%;
+	font-size: 24px;
+}
 
-/*Website Elements*/
+/*Website Structure and Elements*/
 h1, h3{
 	color: white;
 	font-family: 'Fredoka One', cursive;
 	text-align: center;
 }
 
+h2, h4{
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+}
+
 h1{
-	font-size: 80px;
+	font-size: 4em;
 }
 
 h2{
-	color: black;
-	font-family: 'Fredoka One', cursive;
-	font-size: 80px;
+	font-size: 3.2em;
+	margin-top: 5%;
 }
 
 h3{
-	font-size: 60px;
+	font-size: 2.4em;
 }
 
 h4{
-	text-align: center;
-	font-family: 'Fredoka One', cursive;
-	font-size: 40px;
+	font-size: 2em;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	max-width: 10em;
 }
 
-
-
-/*Main website areas*/
-header{
-	background-color: white;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	background-color: #a0138e;
-	margin: 0;
-}
-
-.sectionHeading{
-	text-align: center;
-	margin-top: 8%;
-}
-
-main{
-	margin: 2%;
-}
-
-section{
-	margin: 2%;
-}
-
-footer{
-	background-color: #a0138e;
-	color: white;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 50px;
-	width: 100%;
-	margin: 0;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	font-size: 1.66em;
-}
-
-body{
-	background-color: #FBF9F0;
-	margin: 0;
+.column{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	max-width: 30em;
+	margin: 0% auto;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
 }
 
 
-
-/*Media queries*/
+/*Media Queries*/
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {	  
-    #menu{
-	    flex-flow: column wrap;
-	}
-	
-	#storeInfo{
-		flex-flow: column wrap;
-	}
-	  
-	.hoursColumn {
-	    width: 60%;
-	}
-	  
-	#mapPic {
-	    height: 300px;
-		margin: 5% auto;
-	}
-	  
+  and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-		font-size: 6rem;
-		font-family: 'Fredoka One', cursive;
+	  font-size: 5rem;
 	}
 
 	h2{
-	    font-size: 4rem;
-		font-family: 'Fredoka One', cursive;
-	}
-
-	h3{
-	    font-size: 5rem;
-		font-family: 'Fredoka One', cursive;
-    }
-
-	h4{
-	    font-size: 4rem;
-		font-family: 'Fredoka One', cursive;
-	}
-
-	.menuItem{
-	  font-size: 3rem;
-	}
-	
-	.datesColumn{
 	  font-size: 4rem;
 	}
 
+	h3{
+	  font-size: 3rem;
+	}
+
+	h4{
+	  font-size: 3em;
+	}
+	
+	p{
+		font-size: 2rem
+	}
 }
-
-
