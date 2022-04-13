@@ -46,7 +46,9 @@
 .info{
 	display: flex;
 	flex-flow: row wrap;
-	margin: auto;
+	justify-content: space-evenly;
+	align-items: top;
+	margin: 0 auto;
 }
 
 .infoItem{
@@ -79,7 +81,7 @@
 
 #mapPic{
 	width: 30em;
-	margin: 5% auto;
+	margin-top: 0;
 }
 
 /*Main Website Areas*/
@@ -187,7 +189,19 @@ body{
 	  font-size: 3em;
 	}
 	
-	p{
-		font-size: 6rem;
+	.menuItem, .infoItem{
+		font-size: 4rem;
+	}
+	
+	.menu{
+	  display: flex;
+	  flex-flow: column wrap;
+	  margin: auto;
+	}
+	
+	.info{
+	  display: flex;
+	  flex-flow: column wrap;
+	  margin: auto;
 	}
 }
