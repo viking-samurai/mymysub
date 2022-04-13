@@ -5,6 +5,7 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
+	max-width: 60em;
 }
 
 .pictureDiv{
@@ -26,6 +27,7 @@
 .menu{
 	display: flex;
 	flex-flow: row wrap;
+	max-width: 60em;
 	margin: auto;
 }
 
@@ -45,6 +47,7 @@
 .info{
 	display: flex;
 	flex-flow: row wrap;
+	max-width: 60em;
 	margin: auto;
 }
 
@@ -62,6 +65,7 @@
 .hours{
 	display: flex;
 	flex-flow: row wrap;
+	max-width: 40em;
 	margin: auto;
 }
 
@@ -181,6 +185,6 @@ body{
 	}
 	
 	p{
-		font-size: 2rem
+		font-size: 2.4rem;
 	}
 }
