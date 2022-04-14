@@ -228,16 +228,30 @@ body{
 	  margin: 0% 5% auto 5%;
 	}
 	
-	footer{
+	header{
 	  display: flex;
 	  flex-direction: column;
+	  flex-wrap: wrap;
 	  justify-content: center;
 	  align-items: center;
 	  background-color: #a0138e;
-	  padding: 3em;
-	  height: 20em;
+	  height: 5em;
 	  width: 100%;
 	  margin: 0;
+	  padding: 0;
+	}
+	
+	footer{
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: #a0138e;
+	  height: 5em;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
 	}
 	
 	body{
