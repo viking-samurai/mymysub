@@ -5,7 +5,7 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 	max-width: 60em;
 	margin: auto;
 }
@@ -115,10 +115,6 @@ footer{
 	background-color: #a0138e;
 	width: 100%;
 	margin-top: 3%;
-	position: relative;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	font-size: 24px;
 }
 
@@ -177,7 +173,7 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 4.4rem;
+	  font-size: 5rem;
 	}
 
 	h2{
