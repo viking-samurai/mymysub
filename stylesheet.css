@@ -5,7 +5,6 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
-	flex-flow: column wrap;
 	max-width: 1000px;
 	margin: auto;
 }
@@ -194,7 +193,7 @@ body{
 	}
 	
 	.footerParagraph{
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	
 	.menuItem, .infoItem, .datesItem{
@@ -204,7 +203,6 @@ body{
 	.pictureDiv{
 	  display: flex;
 	  flex-flow: column wrap;
-	  width: 100%;
 	  margin: auto;
 	}
 	
