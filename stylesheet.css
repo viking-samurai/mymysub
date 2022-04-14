@@ -201,12 +201,12 @@ body{
 		font-size: 4rem;
 	}
 	
-	.pictureDiv{
+	.gallery{
 	  display: flex;
-	  flex-flow: row wrap;
+	  flex-flow: column wrap;
 	  justify-content: center;
-	  align-content: center;
 	  align-items: center;
+	  max-width: 60em;
 	  margin: auto;
 	}
 	
