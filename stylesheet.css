@@ -164,9 +164,9 @@ h4{
 body{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	margin: 0;
+	margin: auto;
 }
 
 
@@ -198,6 +198,15 @@ body{
 	
 	.menuItem, .infoItem, .datesItem{
 		font-size: 4rem;
+	}
+	
+	.pictureDiv{
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: center;
+	  align-content: center;
+	  align-items: center;
+	  margin: auto;
 	}
 	
 	.menu{
