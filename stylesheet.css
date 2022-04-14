@@ -5,6 +5,9 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
+	flex-flow: column wrap;
+	max-width: 1000px;
+	margin: auto;
 }
 
 .pictureDiv{
@@ -13,7 +16,6 @@
 	justify-content: space-evenly;
 	align-content: center;
 	align-items: center;
-	max-width: 1000px;
 }
 
 .galleryPic{
@@ -197,12 +199,6 @@ body{
 	
 	.menuItem, .infoItem, .datesItem{
 		font-size: 4rem;
-	}
-	
-	.pictureDiv{
-	  display: flex;
-	  flex-flow: column wrap;
-	  margin: auto;
 	}
 	
 	.menu{
