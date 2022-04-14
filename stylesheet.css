@@ -95,7 +95,7 @@ header{
 	align-items: center;
 	background-color: #a0138e;
 	padding: 3em;
-	height: 18em;
+	height: 20em;
 	width: 100%;
 }
 
@@ -176,7 +176,7 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 4rem;
+	  font-size: 4.4rem;
 	}
 
 	h2{
