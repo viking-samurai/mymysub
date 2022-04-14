@@ -191,6 +191,10 @@ body{
 	  font-size: 4em;
 	}
 	
+	.footerParagraph{
+		font-size: 4rem;
+	}
+	
 	.menuItem, .infoItem, .datesItem{
 		font-size: 4rem;
 	}
