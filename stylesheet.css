@@ -6,8 +6,8 @@
 .gallery{
 	display: flex;
 	flex-flow: row wrap;
+	
 	max-width: 60em;
-	margin: auto;
 }
 
 .pictureDiv{
@@ -16,6 +16,7 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	margin: auto;
 }
 
 .galleryPic{
@@ -104,7 +105,7 @@ main{
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: space-evenly;
-	margin: 1%;
+	margin: auto;
 }
 
 footer{
