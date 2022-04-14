@@ -104,7 +104,7 @@ header{
 main{
 	display: flex;
 	flex-flow: column wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin: auto;
 }
 
