@@ -231,6 +231,19 @@ body{
 	  margin: 0% 5% auto 5%;
 	}
 	
+	footer{
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: #a0138e;
+	  width: 100%;
+	  position: relative;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	}
+	
 	body{
 	  display: flex;
 	  flex-flow: column wrap;
