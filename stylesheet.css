@@ -230,16 +230,14 @@ body{
 	
 	footer{
 	  display: flex;
-	  flex-flow: column wrap;
+	  flex-direction: column;
 	  justify-content: center;
 	  align-items: center;
 	  background-color: #a0138e;
+	  padding: 3em;
+	  height: 20em;
 	  width: 100%;
-	  margin: 8% 0% 0% 0%;
-	  position: absolute;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
+	  margin: 0;
 	}
 	
 	body{
