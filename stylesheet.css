@@ -95,8 +95,8 @@ header{
 	justify-content: center;
 	align-items: center;
 	background-color: #a0138e;
-	padding: 2em;
-	height: 14em;
+	padding: 3em;
+	height: 18em;
 	width: 100%;
 }
 
@@ -199,6 +199,13 @@ body{
 	
 	.menuItem, .infoItem, .datesItem{
 		font-size: 4rem;
+	}
+	
+	.pictureDiv{
+	  display: flex;
+	  flex-flow: column wrap;
+	  width: 100%;
+	  margin: auto;
 	}
 	
 	.menu{
