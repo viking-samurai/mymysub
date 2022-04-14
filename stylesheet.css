@@ -193,7 +193,7 @@ body{
 	}
 	
 	.footerParagraph{
-		font-size: 3rem;
+		font-size: 2.4rem;
 	}
 	
 	.menuItem, .infoItem, .datesItem{
@@ -203,6 +203,11 @@ body{
 	.pictureDiv{
 	  display: flex;
 	  flex-flow: column wrap;
+	  margin: auto;
+	}
+	
+	.galleryPic{
+	  width: 100%;
 	  margin: auto;
 	}
 	
