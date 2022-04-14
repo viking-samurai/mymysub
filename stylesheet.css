@@ -177,16 +177,16 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 5rem;
+	  font-size: 4rem;
 	}
 
 	h2{
-	  font-size: 4rem;
+	  font-size: 4.4rem;
 	  margin-top: 5%;
 	}
 
 	h3{
-	  font-size: 4rem;
+	  font-size: 3.6rem;
 	}
 
 	h4{
