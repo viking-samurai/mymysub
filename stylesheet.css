@@ -5,8 +5,6 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
-	flex-flow: row wrap;
-	margin: auto;
 }
 
 .pictureDiv{
@@ -85,7 +83,7 @@
 
 #mapPic{
 	width: 30em;
-	margin-top: 0%;
+	margin: 0% auto;
 }
 
 /*Main Website Areas*/
@@ -177,16 +175,16 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
 	h1{
-	  font-size: 4rem;
+	  font-size: 5rem;
 	}
 
 	h2{
-	  font-size: 6rem;
+	  font-size: 5rem;
 	  margin-top: 5%;
 	}
 
 	h3{
-	  font-size: 3rem;
+	  font-size: 4rem;
 	}
 
 	h4{
@@ -197,7 +195,7 @@ body{
 		font-size: 4rem;
 	}
 	
-	.gallery{
+	.pictureDiv{
 	  display: flex;
 	  flex-flow: column wrap;
 	  margin: auto;
