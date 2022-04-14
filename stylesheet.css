@@ -227,4 +227,12 @@ body{
 	  max-width: 100%;
 	  margin: 0% 5% auto 5%;
 	}
+	
+	body{
+	  display: flex;
+	  flex-flow: column wrap;
+	  justify-content: center;
+	  align-items: center;
+	  margin: auto;
+	}
 }
