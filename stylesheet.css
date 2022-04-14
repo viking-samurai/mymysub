@@ -98,6 +98,7 @@ header{
 	padding: 3em;
 	height: 20em;
 	width: 100%;
+	margin: 0;
 }
 
 main{
@@ -114,12 +115,8 @@ footer{
 	align-items: center;
 	background-color: #a0138e;
 	width: 100%;
-	margin-top: 3%;
+	margin: 3% 0% 0% 0%;
 	font-size: 24px;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
 }
 
 /*Website Structure and Elements*/
@@ -238,10 +235,7 @@ body{
 	  align-items: center;
 	  background-color: #a0138e;
 	  width: 100%;
-	  position: relative;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
+	  margin: 0;
 	}
 	
 	body{
