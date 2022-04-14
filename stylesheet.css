@@ -116,6 +116,10 @@ footer{
 	background-color: #a0138e;
 	width: 100%;
 	margin: 3% 0% 0% 0%;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	font-size: 24px;
 }
 
