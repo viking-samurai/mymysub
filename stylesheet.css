@@ -230,12 +230,12 @@ body{
 	
 	footer{
 	  display: flex;
-	  flex-flow: row wrap;
+	  flex-flow: column wrap;
 	  justify-content: center;
 	  align-items: center;
 	  background-color: #a0138e;
 	  width: 100%;
-	  margin: 5% 0% 0% 0%;
+	  margin: 8% 0% 0% 0%;
 	  position: absolute;
 	  left: 0;
 	  right: 0;
