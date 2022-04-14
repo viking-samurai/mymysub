@@ -164,7 +164,7 @@ h4{
 body{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	margin: 0;
 }
