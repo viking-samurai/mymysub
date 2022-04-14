@@ -193,7 +193,7 @@ body{
 	}
 	
 	.footerParagraph{
-		font-size: 2.4rem;
+		font-size: 2.8rem;
 	}
 	
 	.menuItem, .infoItem, .datesItem{
@@ -207,7 +207,7 @@ body{
 	}
 	
 	.galleryPic{
-	  width: 10rem;
+	  width: 30rem;
 	  margin: auto;
 	}
 	
