@@ -5,16 +5,12 @@
 /*Gallery Area*/
 .gallery{
 	display: flex;
-	max-width: 60em;
-	margin: auto;
-}
-
-.pictureDiv{
-	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	max-width: 60em;
+	margin: auto;
 }
 
 .galleryPic{
