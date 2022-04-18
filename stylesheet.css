@@ -36,13 +36,21 @@
 .menuItem{
 	display: flex;
 	flex-direction: row wrap;
-	justify-content: space-around;
-	align-content: center;
-	align-items: center;
-	text-align: center;
+	justify-content: space-evenly;
+	text-align: left;
 	font-size: 28px;
 	line-height: 1.5;
-	margin: 3%;
+	margin: auto auto 0% .8em;
+}
+
+.menuItemLineTwo{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-evenly;
+	text-align: left;
+	font-size: 28px;
+	line-height: 1.5;
+	margin: 0% auto auto 2.4em;
 }
 
 /*Store Info and Hours Area*/
@@ -193,7 +201,7 @@ body{
 	}
 	
 /*Main website sub-sections*/
-	.menuItem, .infoItem, .datesItem{
+	.menuItem, .menuItemLineTwo, .infoItem, .datesItem{
 		font-size: 4rem;
 	}
 	
@@ -237,7 +245,7 @@ body{
 	  background-color: #a0138e;
 	  height: 5em;
 	  width: 100%;
-	  margin: 3% 0% 0% 0%;
+	  margin: 8% 0% 0% 0%;
 	  padding: 0;
 	}
 	
