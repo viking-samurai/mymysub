@@ -233,6 +233,10 @@ body{
 	}
 
 /*Main website sections*/
+	header{
+	  height: 30em;	
+	}
+	
 	footer{
 	  display: flex;
 	  flex-direction: column;
