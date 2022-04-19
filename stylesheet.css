@@ -248,6 +248,11 @@ body{
 	  margin: auto;
 	}
 	
+	.picture {
+	  width: 30em;
+	  margin: 1%;
+	}
+	
 	.menu{
 	  display: flex;
 	  flex-flow: column wrap;
