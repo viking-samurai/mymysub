@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+	<title>Gallery Development</title>
+	<style>
+	.gallery{
+	  display: flex;
+	  flex-flow: row wrap;
+	  max-width: 50em;
+	}
+	
+	.pictureDiv{
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-evenly;
+	  align-content: center;
+	  align-items: center;
+	  margin: auto;
+	}
+
+
+	*, *:before, *:after {
+      box-sizing: inherit;
+	}
+
+  .panel {
+    /* Safari transitionend event.propertyName === flex */
+    /* Chrome + FF transitionend event.propertyName === flex-grow */
+    transition:
+      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      background 0.2s;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex: 1;
+	max-width: 300px;
+	margin: 1%;
+  }
+
+	
+
+    /* Flex Items */
+    .panel > * {
+      margin: 0;
+      width: 100%;
+      transition: transform 0.5s;
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .panel > *:first-child { transform: translateY(-100%); }
+    .panel.open-active > *:first-child { transform: translateY(0); }
+    .panel > *:last-child { transform: translateY(100%); }
+    .panel.open-active > *:last-child { transform: translateY(0); }
+
+    .panel.open {
+      flex: 6;
+	  width: 20em;
+	  z-index: 99;
+    }
+	</style>
+  </head>
+  
+  <body>
+    <main class="gallery">
+	  <div class="pictureDiv">
+	    <img class="panel panel1" src="dishPicOne.jpg">
+		<img class="panel panel2" src="dishPicTwo.jpg">
+		<img class="panel panel3" src="dishPicThree.jpg">
+		<img class="panel panel4" src="dishPicFour.jpg">
+		<img class="panel panel5" src="dishPicFive.jpg">
+		<img class="panel panel6" src="dishPicSix.jpg">
+	  </div>
+	</main>
+	
+	<script>
+    const panels = document.querySelectorAll('.panel');
+
+    function toggleOpen() {
+      this.classList.toggle('open');
+    }
+
+    function toggleActive(e) {
+      console.log(e.propertyName);
+      if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active');
+      }
+    }
+
+    panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+  </script>
+  </body>
+</html>
